@@ -38,6 +38,7 @@ def save_mouse(event, x, y, flags, param):
     return True
 
 # endregion
+
 Task = '1'
 folder = 'Task' + Task + '/'
 files = [f for f in listdir(folder) if isfile(join(folder, f))]
